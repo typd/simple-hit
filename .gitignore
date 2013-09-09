@@ -1,0 +1,6 @@
+log/
+*.pyc
+*.swp
+env
+env3
+build

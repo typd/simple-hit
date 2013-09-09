@@ -1,0 +1,6 @@
+cd `dirname "$0"`
+cd ../simple_hit
+echo 'URL      : '$1
+echo 'Processes: '$2
+pwd
+python -c 'import hit; hit.load_test("'$1'", '$2')'
